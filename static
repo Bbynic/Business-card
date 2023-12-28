@@ -1,0 +1,6 @@
+project/
+├── app.py
+├── templates/
+│   └── profile.html
+└── static/
+    └── styles.css
