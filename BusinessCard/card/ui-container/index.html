@@ -17,7 +17,7 @@
             animation: slide 2s ease-in-out infinite; /* Sliding animation */
         }
 
-        h1, p, bds, .user-contact-section, .user-info-section, .card-user-image, .card-absolute-positioned-shapes {
+        h1, p, bds, .user-contact-section, .user-info-section, .card/absolute-positioned-shapes {
             text-align: center; /* Center-align text and the custom <bds /> tag */
         }
 
@@ -33,13 +33,8 @@
             }
         }
 
-        /* Added styles for card-user-image */
-        .card-user-image {
-            margin-top: 20px; /* Adjust margin-top as needed */
-        }
-
-        /* Added styles for card-absolute-positioned-shapes */
-        .card-absolute-positioned-shapes {
+        /* Added styles for card/absolute-positioned-shapes */
+        .card/absolute-positioned-shapes {
             position: relative;
             width: 300px; /* Adjust width as needed */
             height: 200px; /* Adjust height as needed */
@@ -63,29 +58,11 @@
             top: 100px; /* Adjust top position as needed */
             left: 150px; /* Adjust left position as needed */
         }
-
-        /* Added styles for animations */
-        .animated-shape {
-            width: 50px; /* Adjust width as needed */
-            height: 50px; /* Adjust height as needed */
-            background-color: #e74c3c; /* Example color, you can change this */
-            position: relative;
-            animation: moveShape 2s ease-in-out infinite; /* Animation properties */
-        }
-
-        @keyframes moveShape {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(50px); /* Move 50 pixels down */
-            }
-        }
     </style>
 </head>
 <body>
     <!-- Added the <img> tag for the user image -->
-    <img src="/workspaces/Business-card/path/to/your/image/file.jpg" alt="User Image" width="100" height="100">
+    <img src="path/to/your/image/file.jpg" alt="User Image" width="100" height="100">
 
     <h1>Hello, I'm [Nicole Munashe Makumborenga]</h1>
     <p>I do [Web Development/Software Development].</p>
@@ -99,7 +76,7 @@
     </div>
 
     <!-- Added the user image section -->
-    <div class="card-user-image">
+    <div class="card/user-image">
         <!-- Add your user image here -->
         <img src="/workspaces/Business-card/path/to/your/image/file.jpg" alt="User Image" width="200" height="200">
     </div>
@@ -109,17 +86,15 @@
         <p>Additional information about me goes here...</p>
     </div>
 
-    <!-- Added the card-absolute-positioned-shapes section -->
-    <div class="card-absolute-positioned-shapes">
+    <!-- Added the card/absolute-positioned-shapes section -->
+    <div class="card/absolute-positioned-shapes">
         <div class="shape1"></div>
         <div class="shape2"></div>
         <!-- Add more shapes if needed -->
     </div>
-
-    <!-- Added the animations section -->
-    <div class="animated-shape"></div>
 </body>
 </html>
+
 
 
 
